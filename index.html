@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin-top: 100px;
+            background-color: #e7e7e7;
+        }
+        #Container{
+            width: 40%;
+            margin: auto;
+            background-color: #e7e7e7;
+            padding: 10px;
+            height: 70vh;
+        }
+        .input{
+            width: 97%;
+            height: 5vh;
+            outline: none;
+            border: none;
+        }
+        textarea{
+            width: 97%;
+            height: 16vh;
+            outline: none;
+            border: none;
+            resize: none;
+        }
+        button{
+            border-radius: 30px;
+            color: #fff;
+            background-color: red;
+            width: 110px;
+            height: 40px;
+            border: none;
+        }
+        i{
+            color:#615b5b;
+            position: relative;
+            top: 25px;
+            left: 5px;
+        }
+        input{
+            padding-left: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="Container">
+        <h2>Get in Touch</h2>
+        <form action="">
+            <i class="fa-solid fa-user"></i><input type="text" placeholder="Name" class="input"><br><br>
+            <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email" class="input"><br><br>
+            <i class="fa-solid fa-phone"></i><input type="number" placeholder="Phone" class="input"><br><br>
+            <textarea name="" id="" placeholder="Your message..."></textarea><br>
+            <label for=""><input type="checkbox">Send copy to my-email</label><br><br>
+            <button>Send Email</button>
+        </form>
+    </div>
+</body>
+</html>
